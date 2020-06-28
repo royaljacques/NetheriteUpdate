@@ -10,10 +10,10 @@ class NetheriteBoots extends Armor {
 	}
  
 	public function getDefensePoints() : int{
-		return 4;
+		return 3;
 	}
  
 	public function getMaxDurability() : int{
-		return 853;
+		return 481;
 	}
 }

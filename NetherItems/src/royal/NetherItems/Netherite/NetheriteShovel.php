@@ -1,25 +1,22 @@
 <?php
 
-
 namespace royal\NetherItems\Netherite;
 
 use pocketmine\block\Block;
 use pocketmine\block\BlockToolType;
 use pocketmine\entity\Entity;
-use pocketmine\item\Axe;
+use pocketmine\item\Shovel;
 
-
-class NetheriteAxe extends Axe{
+class NetheriteShovel extends Shovel{
     public function __construct(int $meta = 0){
-		parent::__construct(746, $meta, "Netherite axe", 5);
+		parent::__construct(744, $meta, "Netherite Shovel", 5);
     }
-    
-    public function getMaxDurability() : int{
-		return 2000;
+	public function getBlockToolType() : int{
+		return BlockToolType::TYPE_SHOVEL;
 	}
 
-	public function getBlockToolType() : int{
-		return BlockToolType::TYPE_AXE;
+    public function getMaxDurability() : int{
+		return 2000;
     }
     
 	public function getBlockToolHarvestLevel() : int{
@@ -27,7 +24,7 @@ class NetheriteAxe extends Axe{
 	}
 
 	public function getAttackPoints() : int{
-		return self::getBaseDamageFromTier($this->tier) - 1;
+		return self::getBaseDamageFromTier($this->tier) - 3;
 	}
 
 	public function onDestroyBlock(Block $block) : bool{
