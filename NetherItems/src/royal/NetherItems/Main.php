@@ -13,14 +13,7 @@ use pocketmine\item\Item;
 use pocketmine\item\ItemFactory;
 use pocketmine\event\Listener;
 
-
-use royal\NetherItems\Netherite\NetheriteBoots;
-use royal\NetherItems\Netherite\NetheriteChestplate;
-use royal\NetherItems\Netherite\NetheriteHelmet;
-use royal\NetherItems\Netherite\NetheriteLeggings;
-use royal\NetherItems\Netherite\NetheriteSword;
-use royal\NetherItems\Netherite\NetheritePickaxe;
-use royal\NetherItems\Netherite\NetheriteAxe;
+use royal\NetherItems\Netherite\{NetheriteBoots, NetheriteHoe, NetheriteShovel, NetheriteChestplate, NetheriteHelmet, NetheriteLeggings, NetheriteSword, NetheritePickaxe, NetheriteAxe};
 
 
 
@@ -32,10 +25,15 @@ public function onEnable(){
     ItemFactory::registerItem(new NetheriteBoots(),true);
     ItemFactory::registerItem(new NetheriteChestplate(),true);
     ItemFactory::registerItem(new NetheriteHelmet(),true);
-	ItemFactory::registerItem(new NetheriteLeggings(),true);
-	ItemFactory::registerItem(new NetheriteSword(),true);
+    ItemFactory::registerItem(new NetheriteLeggings(),true);
+    ItemFactory::registerItem(new NetheriteSword(),true);
     ItemFactory::registerItem(new NetheritePickaxe(),true);
     ItemFactory::registerItem(new NetheriteAxe(),true);
+    ItemFactory::registerItem(new NetheriteShovel(),true);
+    ItemFactory::registerItem(new NetheriteHoe(),true);
+    ItemFactory::registerItem(new Item(742, 0, "Netherite Ingot"));
+    ItemFactory::registerItem(new Item(752, 0, "Netherite Scrap"));
+    ItemFactory::registerItem(new Item(736, 0, "Honeycomp"));
     Item::initCreativeItems();
 
     }
