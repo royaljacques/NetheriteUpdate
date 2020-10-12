@@ -1,4 +1,5 @@
-[! [HitCount] (http://hits.dwyl.com/royaljacques/https://githubcom/royaljacques/NetheriteUpdate.svg)] (http://hits.dwyl.com/royaljacques/https://githubcom/ royaljacques / NetheriteUpdate)
+[![HitCount](http://hits.dwyl.com/royaljacques/https://githubcom/royaljacques/NetheriteUpdate.svg)](http://hits.dwyl.com/royaljacques/https://githubcom/royaljacques/NetheriteUpdate)
+
 # NetheriteUpdate
 
 Addon minecarft netherite
