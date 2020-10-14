@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.com/royaljacques/https://githubcom/royaljacques/NetheriteUpdate.svg)](http://hits.dwyl.com/royaljacques/https://githubcom/royaljacques/NetheriteUpdate)
+[![HitCount](http://hits.dwyl.com/royaljacques/NetheriteUpdate.svg)](http://hits.dwyl.com/royaljacques/NetheriteUpdate)
 <a href="https://discord.gg/TJjSge3"><img src="https://discordapp.com/api/guilds/412491783486832640/embed.png" alt="Discord server"/></a>
 
 # NetheriteUpdate
