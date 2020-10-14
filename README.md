@@ -1,5 +1,6 @@
 [![HitCount](http://hits.dwyl.com/royaljacques/NetheriteUpdate.svg)](http://hits.dwyl.com/royaljacques/NetheriteUpdate)
 <a href="https://discord.gg/TJjSge3"><img src="https://discordapp.com/api/guilds/412491783486832640/embed.png" alt="Discord server"/></a>
+![Downloads](https://img.shields.io/github/license/royaljacques/NetheriteUpdate)
 
 # NetheriteUpdate
 
